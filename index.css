@@ -81,4 +81,30 @@
     bottom: 400px;
 }
 
+/* .testimonials {
+    border-bottom: 3px solid red;
+    border-image: linear-gradient(to right, red, blue);
+
+
+
+} */
+
+.border-gradient {
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #ffffff 4%, #c50101 20%);
+
+}
+
+.testimonialsContainer {
+    background-image: linear-gradient(to right, #00264d 5%, rgb(0, 45, 141) 50%, #00264d 95%);
+    font-size: 30px;
+
+}
+
+.testimonials h1 {
+    font-size: 60px;
+}
+
 .vec {}

@@ -10,12 +10,12 @@
 }
 
 .carouselContainer {
-    height: 500px !important;
+    /* height: 500px !important; */
 }
 
 .overlay {
     background-color: black;
-    opacity: 50%;
+    opacity: 25%;
     z-index: 2;
     height: 100%;
     width: 100%;
@@ -38,10 +38,44 @@
     /* max-height: 600px !important; */
 }
 
+.wilpineImg {}
+
+.imgContainer {
+    height: 700px;
+
+}
+
 .wilpine {
-    height: 800px;
+    position: relative;
+    bottom: 100px;
 }
 
 .bulbs {
-    height: 800px;
+    position: relative;
+    bottom: 300px;
+}
+
+.shelves {
+    position: relative;
+    bottom: 300px;
+}
+
+.paperLights {
+    position: relative;
+    bottom: 100px;
+}
+
+.generac {
+    height: 700px;
+    position: relative;
+
+}
+
+.hangingGlass {
+    position: relative;
+    bottom: 400px;
+}
+
+.vec {
+    animate:
 }

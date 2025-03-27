@@ -3,10 +3,10 @@
 }
 
 .navbar {
-    border-bottom: 3px solid rgb(230, 0, 0);
+    /* border-bottom: 3px solid rgb(230, 0, 0); */
     /* border-top: 4px solid rgb(0, 45, 141); */
     /* background-image: linear-gradient(to right, #ffffff 15%, rgb(0, 45, 141)); */
-    /* border-bottom: 4px solid rgb(19, 134, 201); */
+    border-bottom: 2px solid rgb(0, 45, 141);
 }
 
 .carouselContainer {
@@ -65,6 +65,11 @@
     bottom: 100px;
 }
 
+.conduits {
+    position: relative;
+    bottom: 100px;
+}
+
 .generac {
     height: 700px;
     position: relative;
@@ -76,6 +81,4 @@
     bottom: 400px;
 }
 
-.vec {
-    animate:
-}
+.vec {}

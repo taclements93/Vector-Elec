@@ -97,6 +97,8 @@
 
 }
 
+.ourCustomers {}
+
 .testimonialsContainer {
     background-image: linear-gradient(to right, #00264d 5%, rgb(0, 45, 141) 50%, #00264d 95%);
     font-size: 30px;
@@ -112,21 +114,20 @@
 }
 
 .aboutContainer {
-    background-image: linear-gradient(to right, #00329ea2 90%, aliceblue 108%), url(./Images/polygonGradientLarge.png) !important;
-    ;
+    background-image: linear-gradient(to right, #002168a2 50%, aliceblue 150%), url(./Images/polygonGradientLarge.png) !important;
+
 }
 
 .trapezoidContainer {}
 
 .trapezoid {
     width: 700px;
-    height: 380px;
-    background: rgba(0, 17, 116, 0.5);
+    height: 400px;
+    background: rgba(0, 17, 116, 0.3);
     position: absolute;
     z-index: 0;
-    margin-right: ;
 
-    clip-path: polygon(0% 0, 100% 0%, 85% 100%, 0 100%);
+    clip-path: polygon(0% 0, 100% 0%, 95% 100%, 0 100%);
 }
 
 .aboutText {
@@ -136,7 +137,18 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
-    box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.25);
     opacity: 85%;
+    letter-spacing: 2px;
 
+}
+
+.footer {
+    height: 8rem;
+    background-image: linear-gradient(to right, #00264d 5%, rgb(0, 45, 141) 50%, #00264d 95%);
+}
+
+.footerLogo {
+    width: 12%;
+    height: 50%;
 }

@@ -107,4 +107,36 @@
     font-size: 60px;
 }
 
-.vec {}
+.ev {
+    box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.7);
+}
+
+.aboutContainer {
+    background-image: linear-gradient(to right, #00329ea2 90%, aliceblue 108%), url(./Images/polygonGradientLarge.png) !important;
+    ;
+}
+
+.trapezoidContainer {}
+
+.trapezoid {
+    width: 700px;
+    height: 380px;
+    background: rgba(0, 17, 116, 0.5);
+    position: absolute;
+    z-index: 0;
+    margin-right: ;
+
+    clip-path: polygon(0% 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+.aboutText {
+    z-index: 2;
+    position: absolute;
+    /* background-color: hsl(0, 0%, 50%, 0.5); */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.37);
+    opacity: 85%;
+
+}

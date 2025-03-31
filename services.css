@@ -1,0 +1,49 @@
+* {
+    font-family: Oswald;
+}
+
+.border-gradient {
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #ffffff 20%, #c50101 40%);
+
+}
+
+.servicesH1 {
+    font-size: 60px;
+}
+
+.servicesContainer {
+    background-image: linear-gradient(to right, #002168a2 30%, aliceblue 150%), url(./Images/polygonGradientLarge.png) !important;
+    height: 600px;
+    flex-direction: column;
+}
+
+.servicesText {
+    z-index: 2;
+    /* position: absolute; */
+    /* background-color: hsl(0, 0%, 50%, 0.5); */
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.25);
+    opacity: 85%;
+    letter-spacing: 2px;
+
+}
+
+.trapezoid {
+    width: 700px;
+    height: 350px;
+    background: rgba(0, 17, 116, 0.3);
+    position: absolute;
+    z-index: 0;
+
+    clip-path: polygon(0% 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+.servicesUl {
+    flex-direction: column;
+    opacity: 85%;
+}

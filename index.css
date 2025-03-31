@@ -5,7 +5,7 @@
 .navbar {
     /* border-bottom: 3px solid rgb(230, 0, 0); */
     /* border-top: 4px solid rgb(0, 45, 141); */
-    /* background-image: linear-gradient(to right, #ffffff 15%, rgb(0, 45, 141)); */
+    /* background-image: linear-gradient(to left, #ffffff 10%, rgb(0, 45, 141) 50%); */
     border-bottom: 2px solid rgb(0, 45, 141);
 }
 
@@ -93,7 +93,7 @@
     border-bottom: 10px solid;
     border-image-slice: 1;
     border-width: 5px;
-    border-image-source: linear-gradient(to left, #ffffff 4%, #c50101 20%);
+    border-image-source: linear-gradient(to left, #ffffff 20%, #c50101 40%);
 
 }
 
@@ -110,6 +110,10 @@
     font-size: 60px;
 }
 
+.servicesH1 {
+    font-size: 60px;
+}
+
 .ev {
     box-shadow: -7px 8px 13px 0 rgba(0, 0, 0, 0.7);
 }
@@ -122,13 +126,13 @@
 .trapezoidContainer {}
 
 .trapezoid {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     background: rgba(0, 17, 116, 0.3);
     position: absolute;
     z-index: 0;
 
-    clip-path: polygon(0% 0, 100% 0%, 95% 100%, 0 100%);
+    clip-path: polygon(0% 0, 100% 0%, 85% 100%, 0 100%);
 }
 
 .aboutText {
